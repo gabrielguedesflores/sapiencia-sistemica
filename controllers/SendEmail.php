@@ -20,7 +20,7 @@ class SendEmail{
 			$mail->Host = 'smtp.kinghost.net';
 			$mail->SMTPAuth = true;
 			$mail->Username = 'contato@sapienciasistemicahomolog.kinghost.net';
-			$mail->Password = 'sapi3nciasist3mica';
+			$mail->Password = ''; //senha do e-mail
 			$mail->Port = 587;
 			
 			// Define o remetente
