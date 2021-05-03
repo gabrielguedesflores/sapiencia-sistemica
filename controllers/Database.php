@@ -18,7 +18,7 @@ class Database
      */
     protected static  $oInstance;
 
-    public function __construct ($dbname = 'sapienciasistemicahomolog', $host = 'pgsql.sapienciasistemicahomolog.kinghost.net', $port = '5432', $user = 'sapienciasistemicahomolog', $pass = 'TechApp!00') 
+    public function __construct ($dbname = 'sapienciasistemicahomolog', $host = 'pgsql.sapienciasistemicahomolog.kinghost.net', $port = '5432', $user = 'sapienciasistemicahomolog', $pass = '') 
     {
         $dsn = "pgsql:dbname={$dbname};host={$host};port={$port}";
         
