@@ -57,7 +57,7 @@ try {
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'gabriielfloores97@gmail.com';
-	$mail->Password = 'Bi554655';
+	$mail->Password = '';
 	$mail->Port = 587;
 
 	$mail->setFrom('gabriielfloores97@gmail.com');
@@ -65,8 +65,8 @@ try {
 
 	$mail->isHTML(true);
 	$mail->Subject = 'Auto-vendas - Retorno do Contato';
-	$mail->Body = 'Chegou pae';
-	$mail->AltBody = 'Chegou pae';
+	$mail->Body = 'Chegou';
+	$mail->AltBody = 'Chegou';
 
 	if($mail->send()){
 		echo 'E-mail enviado com sucesso';
